@@ -1,0 +1,266 @@
+{
+  "eyebrow": "Discover the power of",
+  "title": "Turn Any Web Page into Clean, Structured Data in Minutes \u2014 No CSS Selectors Required",
+  "subtitle": "Stop wrestling with brittle scrapers. Our AI-powered Data-as-a-Service extracts the exact fields you want across changing layouts, so you can launch projects faster, cut maintenance to near-zero, and never miss critical market data again.",
+  "primaryCta": {
+    "text": "Start Free \u2014 Extract Your First Dataset Today",
+    "href": "/signup"
+  },
+  "secondaryCta": {
+    "text": "Watch 2\u2011Minute Demo",
+    "href": "#demo"
+  },
+  "features": [
+    {
+      "title": "Tell it what you need. Get data, fast.",
+      "description": "Type \u201cproduct name,\u201d \u201cprice,\u201d or any field in plain English. Our AI understands page context and returns clean, structured JSON/CSV without manual selectors or XPath.",
+      "icon": "sparkles",
+      "customIcon": "data:image/png;base64,https://flf9sqjrdgau3cgl.public.blob.vercel-storage.com/upload-tjpbtk2Keq0QkjEZ095LeOublxFdqH"
+    },
+    {
+      "title": "Resilient to layout changes",
+      "description": "Traditional scrapers break when the DOM shifts. Our model adapts to new layouts and microcopy changes\u2014dramatically reducing breakage and ongoing maintenance.",
+      "icon": "shield-check",
+      "customIcon": "data:image/png;base64,https://flf9sqjrdgau3cgl.public.blob.vercel-storage.com/upload-KlQZcDUzaaXNRV1HZadjbVpYJSY621"
+    },
+    {
+      "title": "Browser-accurate at scale",
+      "description": "Full browser automation handles dynamic sites, JavaScript rendering, and pagination. Run jobs in parallel and export to CSV, JSON, Sheets, or your data warehouse via API.",
+      "icon": "bolt",
+      "customIcon": "data:image/png;base64,https://flf9sqjrdgau3cgl.public.blob.vercel-storage.com/upload-aBtyfijvTzO4JQs02YLcuW3MPGGewK"
+    },
+    {
+      "title": "Built-in quality controls",
+      "description": "Schema validation, deduplication, retries, and smart rate limiting keep your datasets clean and dependable\u2014without extra engineering time.",
+      "icon": "check-circle",
+      "customIcon": "data:image/png;base64,https://flf9sqjrdgau3cgl.public.blob.vercel-storage.com/upload-Ow6chgYPespjrpfnS4GHJNNqimn8nd"
+    },
+    {
+      "title": "Responsible and compliant by design",
+      "description": "Respectful crawl settings, robots management, throttling, and audit logs help your team scrape responsibly and align with site policies.",
+      "icon": "scale-balanced",
+      "customIcon": "data:image/png;base64,https://flf9sqjrdgau3cgl.public.blob.vercel-storage.com/upload-QG8fUwxi2asQcNxRC9f15IUV2vRSw2"
+    },
+    {
+      "title": "Deploy in minutes, integrate anywhere",
+      "description": "Hosted on battle-tested infrastructure with webhooks and integrations. Plug into your stack with ease\u2014no servers to manage.",
+      "icon": "puzzle-piece",
+      "customIcon": "data:image/png;base64,https://flf9sqjrdgau3cgl.public.blob.vercel-storage.com/upload-1GeS10vyGqqdhX7jegS8a6i7UsTztX"
+    }
+  ],
+  "theme": "dark-glossy",
+  "socialProof": {
+    "testimonials": [
+      {
+        "quote": "We went from days of selector tuning to shipping a production dataset in under an hour. The AI extraction is shockingly accurate.",
+        "name": "Ava R.",
+        "role": "Growth Marketer",
+        "company": "DTC Brand"
+      },
+      {
+        "quote": "Layout changes used to break our pipelines every week. Now the model adapts and our maintenance tickets dropped by ~80%.",
+        "name": "Marcus L.",
+        "role": "Data Engineering Lead",
+        "company": "Analytics Consultancy"
+      },
+      {
+        "quote": "Non-technical teammates can describe the fields they want and get results right away. It\u2019s made web data a team sport.",
+        "name": "Priya S.",
+        "role": "Product Manager",
+        "company": "SaaS Startup"
+      }
+    ],
+    "stats": [
+      {
+        "label": "Avg time to first dataset",
+        "value": "\u2248 5 minutes"
+      },
+      {
+        "label": "Reduction in maintenance",
+        "value": "Up to 80%"
+      },
+      {
+        "label": "Browser-rendered success rate",
+        "value": "High reliability"
+      },
+      {
+        "label": "Exports",
+        "value": "CSV, JSON, Sheets, API"
+      }
+    ],
+    "logos": [
+      "Apify",
+      "Google Gemini",
+      "Chromium",
+      "Zapier",
+      "Make (Integromat)"
+    ]
+  },
+  "faqs": [
+    {
+      "question": "How is this different from traditional scrapers?",
+      "answer": "Traditional scrapers rely on brittle CSS/XPath selectors that break when page layouts change. Our AI understands page context and labels, so you simply describe the fields in natural language and it adapts across layouts\u2014dramatically reducing setup and maintenance."
+    },
+    {
+      "question": "Will it work on any website?",
+      "answer": "It\u2019s designed for most public, browser-rendered websites. Results can vary based on site complexity and access controls. We provide rate limiting, retries, and responsible scraping controls to improve reliability while respecting site policies."
+    },
+    {
+      "question": "Do I need to code?",
+      "answer": "No. Enter URLs, describe your fields, and click run. For teams that prefer automation, you can use our API, webhooks, and integrations to plug results into your workflows."
+    },
+    {
+      "question": "How do you handle anti-bot measures and CAPTCHAs?",
+      "answer": "We use full browser automation and smart throttling to mimic human-like behavior. For protected pages or CAPTCHAs, we provide configuration options and best practices. Some sites may require additional permissions or may not be scrapeable."
+    },
+    {
+      "question": "What about accuracy and data quality?",
+      "answer": "AI extraction is paired with schema validation, sampling, and deduplication to keep data clean. You can preview results, refine field descriptions, and iterate quickly to reach your target accuracy."
+    }
+  ],
+  "about": "We built this platform to make web data accessible to everyone\u2014not just engineers. Under the hood, it combines full browser automation with Google\u2019s Gemini LLM to understand page context and extract the exact fields you describe in plain English. Instead of chasing brittle selectors, you get resilient, structured datasets you can trust. The service is deployed on proven cloud infrastructure and integrates with your existing tools via API, webhooks, and ready-made connectors. Whether you\u2019re tracking competitor prices, enriching leads, or powering market intelligence, our goal is simple: help you ship accurate datasets in minutes, not weeks.",
+  "contact": {
+    "email": "hello@yourdomain.com",
+    "phone": "+1 (555) 555-1234",
+    "address": "Remote-first \u2022 Worldwide"
+  },
+  "seo": {
+    "seo_title": "AI Web Scraping Data-as-a-Service | Clean Structured Data",
+    "meta_description": "AI web scraping and data extraction without CSS selectors. Our Data-as-a-Service delivers clean, structured data across changing layouts\u2014fast, low maintenance.",
+    "keywords": [
+      "AI web scraping",
+      "data extraction SaaS",
+      "Data-as-a-Service (DaaS)",
+      "web scraping API",
+      "structured data extraction",
+      "no-code web scraping",
+      "scrape dynamic websites",
+      "automated data collection"
+    ],
+    "og_title": "Turn Any Web Page into Clean, Structured Data\u2014No CSS Selectors Required",
+    "og_description": "Stop wrestling with brittle scrapers. Our AI-powered DaaS extracts the exact fields you need across changing layouts\u2014launch faster, slash maintenance, and never miss critical market data."
+  },
+  "design": {
+    "color_palette": {
+      "primary": "#1E40AF",
+      "secondary": "#0EA5A8",
+      "accent": "#22C55E",
+      "neutral": "#F8FAFC"
+    },
+    "visual_mood": {
+      "overall_feeling": "Trusted, intelligent, and approachable\u2014advanced AI power that feels safe and usable for everyone.",
+      "style_keywords": [
+        "trustworthy",
+        "clean",
+        "data\u2011centric",
+        "modern",
+        "approachable",
+        "minimal",
+        "gradient accents",
+        "dark\u2011mode ready",
+        "modular"
+      ],
+      "target_emotion": "Confidence and empowerment to extract web data without friction."
+    },
+    "typography_style": "Headings: Space Grotesk (600\u2013700) for a modern, technical feel without intimidation. Body/UI: Inter (400\u2013600) for exceptional legibility at small sizes. Code: JetBrains Mono (400\u2013500) for snippets and API examples. Base sizes: 16px body, 28\u201340px H1, 22\u201326px H2. Line-height 1.5\u20131.7 for paragraphs. Use 8pt spacing system. Ensure minimum 16px interactive targets and 4.5:1 contrast for text. Fallback stack: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif.",
+    "layout_approach": "Hero: clear value prop (\u201cAI\u2011Powered Web Data Extraction for Everyone\u201d), supportive subhead (no\u2011code + API), Primary CTA (\u201cStart free\u201d) + Secondary CTA (\u201cSee live demo\u201d). Add social proof logos and trust badges (SOC2/ISO pending, uptime). Conversion: repeat CTA in sticky header on scroll; benefit-focused sections; templates gallery (use cases: e\u2011commerce prices, research, news monitoring); side-by-side No\u2011Code vs API tabs; interactive playground/demo; integrations (Google Sheets, Zapier/Make, BigQuery, Snowflake); pricing with monthly/annual toggle, transparent limits; testimonials with role tags; compliance & ethics section (robots.txt, ToS respect). Structure: 12\u2011column grid, generous whitespace, 72\u201396px section padding, sticky top nav with clear IA (Product, Templates, Pricing, Docs, Login, Start free). Accessibility: keyboard navigable, visible 3px focus ring, skip\u2011to\u2011content, semantic landmarks, ARIA for tabs/modals, form labels and error messages with text + icon, reduced motion preference honored. Dark mode: auto + toggle; ensure color tokens meet contrast in both modes. Performance: lazy\u2011load media, optimized SVGs, code-splitting. Modern aesthetics: soft card shadows, 12\u201316px corner radius, subtle blue\u2192teal gradient accents, minimal illustrations, tasteful micro\u2011interactions (<200ms).",
+    "imagery_style": "Product-first: crisp UI screenshots on light background with subtle gradient accents. Abstract data visuals (nodes/flows, table overlays) to signal AI + automation without hacker clich\u00e9s. Short looping UI demos for setup and extraction runs. Inclusive, role\u2011based lifestyle shots (marketers, researchers, SMB owners, developers) used sparingly. Iconography: simple line icons with duotone blue/teal. Illustrate compliance (robots.txt awareness) and integrations with recognizable logos. Avoid busy stock imagery; prioritize clarity and authenticity.",
+    "ui_elements": [
+      "Primary button (accent green) with clear label; secondary button (outlined primary)",
+      "Sticky header with Start free CTA",
+      "Hero social-proof strip (client logos)",
+      "No\u2011Code/API tab switcher component",
+      "Template cards with tags (Use case, Source, Output)",
+      "Onboarding wizard (URL input \u2192 selection \u2192 schedule \u2192 export)",
+      "URL input with validation and helper text",
+      "Scheduling picker (CRON + presets)",
+      "Progress/queue status with live updates (ARIA live region)",
+      "Run logs viewer (filterable)",
+      "Results table with column controls, CSV/JSON/Sheets export",
+      "Code snippet block (copy, language tabs, dark theme)",
+      "Quota/usage meter and rate\u2011limit indicator",
+      "Pricing cards with monthly/annual toggle and feature comparison",
+      "Trust badges (security, uptime, privacy) and compliance notice",
+      "Testimonials carousel with role/company",
+      "Empty states with guidance and quick actions",
+      "Inline help tooltips and ? info modals",
+      "Toast notifications (success/error) with undo where possible",
+      "Command palette (\u2318K) for power users",
+      "Global search with recent items",
+      "Breadcrumbs in app areas",
+      "Pagination with accessible controls (avoid infinite scroll for data tables)",
+      "Filter chips and saved views",
+      "Skeleton loaders and reduced motion alternative",
+      "Theme toggle (light/dark) and system preference sync",
+      "Cookie consent banner with essential/analytics choices",
+      "Keyboard focus styles and skip\u2011links",
+      "Legal links (AUP, robots.txt policy, DMCA, Terms, Privacy)"
+    ]
+  },
+  "customImages": {
+    "hero": "https://flf9sqjrdgau3cgl.public.blob.vercel-storage.com/upload-zb8VCVeBVBl8swfTFtP15k8ahTzhuf",
+    "feature_icons": [
+      "https://flf9sqjrdgau3cgl.public.blob.vercel-storage.com/upload-tjpbtk2Keq0QkjEZ095LeOublxFdqH",
+      "https://flf9sqjrdgau3cgl.public.blob.vercel-storage.com/upload-KlQZcDUzaaXNRV1HZadjbVpYJSY621",
+      "https://flf9sqjrdgau3cgl.public.blob.vercel-storage.com/upload-aBtyfijvTzO4JQs02YLcuW3MPGGewK",
+      "https://flf9sqjrdgau3cgl.public.blob.vercel-storage.com/upload-Ow6chgYPespjrpfnS4GHJNNqimn8nd",
+      "https://flf9sqjrdgau3cgl.public.blob.vercel-storage.com/upload-QG8fUwxi2asQcNxRC9f15IUV2vRSw2",
+      "https://flf9sqjrdgau3cgl.public.blob.vercel-storage.com/upload-1GeS10vyGqqdhX7jegS8a6i7UsTztX"
+    ],
+    "background_pattern": "https://flf9sqjrdgau3cgl.public.blob.vercel-storage.com/upload-16BJ2lXXRk0ezK3KmlXskejVYpxscy",
+    "logo": "https://flf9sqjrdgau3cgl.public.blob.vercel-storage.com/upload-kQ1VjvS87tiDO7NVQQrwg76c1bMoCv",
+    "social_media": {
+      "og_image": "https://flf9sqjrdgau3cgl.public.blob.vercel-storage.com/upload-aDILyb0mk9mOFg2TcWnJF8Kj2jggJF",
+      "twitter_card": "https://flf9sqjrdgau3cgl.public.blob.vercel-storage.com/upload-23aPDO54DMYbsy1XOcxmx6Qtu5ZCVF",
+      "linkedin_post": "https://flf9sqjrdgau3cgl.public.blob.vercel-storage.com/upload-3LvcBaMrbkWAyJ4IlAd1ImGrYpo1SR"
+    }
+  },
+  "businessAnalysis": {
+    "business_type": "AI-powered web scraping/data extraction SaaS (Data-as-a-Service)",
+    "target_audience": "Data teams and analysts at SMBs/enterprises; growth marketers and sales ops for lead gen; e-commerce/pricing teams; market research/consulting firms; SEO/agency teams; product managers; developers; journalists/academics; no-code/prosumer users",
+    "business_model": "SaaS (B2B-first with prosumer B2C), tiered subscription + usage-based/API credits, freemium trials; optional managed/enterprise services",
+    "key_value_props": [
+      "No-code, AI-driven extractor that turns any webpage into structured data from natural-language prompts",
+      "Self-healing scrapers that adapt to site changes and dynamic content (JS-heavy pages)",
+      "Scalable cloud crawling with built-in proxy rotation, headless browsers, and CAPTCHA handling",
+      "Fast time-to-value for non-technical users (\u201ca scraper for anyone\u201d) with templates and visual point-and-click selection",
+      "High data quality with schema inference, deduplication, validation, and monitoring/retries",
+      "Flexible outputs and integrations (API, webhooks, CSV/JSON/Parquet, Google Sheets, Zapier, data warehouses)",
+      "Compliance-first options (rate limiting, robots.txt handling, consent controls) and security (SLA, audit logs)",
+      "Cost-effective vs. building/maintaining custom scrapers in-house"
+    ],
+    "competitive_advantages": [
+      "Natural-language to extractor generation reduces setup time vs. rule-based tools",
+      "Self-healing/AI models that auto-update selectors when the site layout changes, lowering maintenance",
+      "End-to-end managed infrastructure (proxies, rendering, anti-bot) enabling higher success rates",
+      "Intuitive UI accessible to non-developers plus powerful API/SDKs for engineers",
+      "Prebuilt blueprints for common use cases (price monitoring, lead lists, SERP, product catalogs)",
+      "Enterprise readiness (SLA, SSO, role-based access, audit/compliance)",
+      "Global IP pool and geo-targeting for localized data collection"
+    ],
+    "industry_keywords": [
+      "Web scraping",
+      "Web data extraction",
+      "Data-as-a-Service (DaaS)",
+      "No-code automation",
+      "LLM/AI-powered scraping",
+      "Self-healing crawlers",
+      "Headless browser (Puppeteer/Playwright)",
+      "Proxy rotation/IP rotation",
+      "Anti-bot/CAPTCHA solving",
+      "Dynamic rendering/JS-heavy sites",
+      "Data pipeline/ETL",
+      "Data quality/validation",
+      "SERP scraping",
+      "Price monitoring",
+      "Lead generation/data enrichment",
+      "Market intelligence/competitive intelligence",
+      "API/webhooks",
+      "CSV/JSON/Parquet exports",
+      "Cloud crawling",
+      "Compliance/robots.txt/ToS"
+    ]
+  },
+  "aiEnhanced": true,
+  "heroImage": "data:image/png;base64,https://flf9sqjrdgau3cgl.public.blob.vercel-storage.com/upload-zb8VCVeBVBl8swfTFtP15k8ahTzhuf"
+}
